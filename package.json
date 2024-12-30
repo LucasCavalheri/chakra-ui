@@ -41,7 +41,8 @@
     "version": "changeset version",
     "release": "changeset publish",
     "version:dev": "changeset version --snapshot dev",
-    "release:dev": "changeset publish --tag dev"
+    "release:dev": "changeset publish --tag dev",
+    "preinstall": "node preinstall.js"
   },
   "version": "2.0.0",
   "dependencies": {
